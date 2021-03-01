@@ -7,11 +7,9 @@ import { Button } from "react-bootstrap";
 const InputTable = () => {
     return (
         <>
-            <div>
-                <h3>Investment Allocations</h3>
-                <p>Select your percentages for investment allocations in each of the sectors below. Add stock codes for a
-                    more accurate forecast.</p>
-            </div>
+            <h3>Investment Allocations</h3>
+            <p>Select your percentages for investment allocations in each of the sectors below. Add stock codes for a
+                more accurate forecast.</p>
             <div>
                 <InputGroup className="mb-3">
                     <InputGroup.Prepend>
@@ -26,97 +24,425 @@ const InputTable = () => {
             </div>
             <Table striped bordered hover>
                 <thead>
-                <tr>
-                    <th>Investment Sector</th>
-                    <th>Percentage</th>
-                    <th>Company 1</th>
-                    <th>Company 2</th>
-                    <th>Company 3</th>
-                    <th>Company 4</th>
-                    <th>Company 5</th>
-                </tr>
+                    <tr>
+                        <th>Investment Sector</th>
+                        <th>Percentage</th>
+                        <th>Company 1</th>
+                        <th>Company 2</th>
+                        <th>Company 3</th>
+                        <th>Company 4</th>
+                        <th>Company 5</th>
+                    </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <th><p>Energy</p></th>
-                    <th>
-                        <InputGroup className="mb-3">
-                            <FormControl
-                                placeholder="00%"
-                                aria-label="(to the nearest percent)"
-                            />
-                        </InputGroup>
-                    </th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th>Technology</th>
-                    <th>
-                        <InputGroup className="mb-3">
-                            <FormControl
-                                placeholder="00%"
-                                aria-label="(to the nearest percent)"
-                            />
-                        </InputGroup>
-                    </th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th>Pharmaceuticals</th>
-                    <th>
-                        <InputGroup className="mb-3">
-                            <FormControl
-                                placeholder="00%"
-                                aria-label="(to the nearest percent)"
-                            />
-                        </InputGroup>
-                    </th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th>Entertainment</th>
-                    <th>
-                        <InputGroup className="mb-3">
-                            <FormControl
-                                placeholder="00%"
-                                aria-label="(to the nearest percent)"
-                            />
-                        </InputGroup>
-                    </th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
-                <tr>
-                    <th>Real Estate</th>
-                    <th>
-                        <InputGroup className="mb-3">
-                            <FormControl
-                                placeholder="00%"
-                                aria-label="(to the nearest percent)"
-                            />
-                        </InputGroup>
-                    </th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                    <th></th>
-                </tr>
+                    <tr>
+                        <th><p>Energy</p></th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="00%"
+                                    aria-label="(to the nearest percent)"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Technology</th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="00%"
+                                    aria-label="(to the nearest percent)"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Financial Services</th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="00%"
+                                    aria-label="(to the nearest percent)"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Real Estate</th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="00%"
+                                    aria-label="(to the nearest percent)"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Pharmaceuticals</th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="00%"
+                                    aria-label="(to the nearest percent)"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Airline</th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="00%"
+                                    aria-label="(to the nearest percent)"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Retail</th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="00%"
+                                    aria-label="(to the nearest percent)"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Gaming</th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="00%"
+                                    aria-label="(to the nearest percent)"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                        <th>
+                            <InputGroup className="mb-3">
+                                <FormControl
+                                    placeholder="STX"
+                                    aria-label="stock code"
+                                />
+                            </InputGroup>
+                        </th>
+                    </tr>
                 </tbody>
             </Table>
             <div>
