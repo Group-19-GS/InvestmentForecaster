@@ -5,7 +5,8 @@ const ForecasterHome = () => {
     <>
        <div>
            <h3>Investment Forecaster</h3>
-           <p>logic goes here; maybe have a function to toggle graph of growth in each market</p>
+           <p>Below is the projected investment growth for "total investment value" over 10 years. Select the buttons below
+           to view the growth in each sector.</p>
        </div>
     </>
   );
